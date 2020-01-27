@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.pages {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.page h1 {
+    text-align: center;
+}
+
+.page {
+    padding: .7em 25vh 0 25vh;
+}
+
+#customScroll {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: inline-flex;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    float: right;
+    margin: auto auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    z-index: 1000;
+}
+
+#customScroll a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+}
+
+#top {
+    background-color: red;
+}
+
+#profile {
+    background-color: blue;
+}
+
+#experience {
+    background-color: green;
+}
+
+#projects {
+    background-color: yellow;
+}
+
+#skills {
+    background-color: purple;
+}
+
+#education {
+    background-color: cyan;
+}
+
+#contact {
+    background-color: violet;
+}
